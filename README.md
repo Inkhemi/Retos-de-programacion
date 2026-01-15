@@ -6,3 +6,4 @@
 | [Fizz Buzz](./1_fizzbuzz.py)  | ✅      |
 | [Anagrama](./2_anagrama.py)   | ✅      |
 | [Fibonacci](./3_fibonacci.py) | ✅      |
+| [Número primo](./4_primo.py)  | ✅      |
