@@ -6,6 +6,9 @@
  * - 0, 1, 1, 2, 3, 5, 8, 13...
 """
 def fibonacci():
+    """
+    Muestra los primeros números de Fibonacci.
+    """
     fib = [0, 1]
     for i in range(2, 51):
         fib.append(fib[i - 1] + fib[i - 2])

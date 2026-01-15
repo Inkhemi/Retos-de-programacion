@@ -8,6 +8,12 @@
 """
 
 def anagrama(word1:str, word2: str) -> bool:
+    """
+    Comprueba si la palabra 2 es un anagrama de la palabra 1.
+    :param word1: Primera palabra.
+    :param word2: Segunda palabra.
+    :return: True si es anagrama, False en caso contrario.
+    """
     word1 = list(word1.lower())
     word2 = list(word2.lower())
 
