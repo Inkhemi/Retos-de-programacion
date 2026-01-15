@@ -34,6 +34,11 @@ class Square(Poligono):
         return self.side * self.side
 
 def area(poligono: Poligono):
+    """
+    Calcula el área de un polígono
+    :param poligono: llamada a la clase de polígono con sus respectivos lados.
+    :return: El área del polígono
+    """
     return poligono.area()
 
 if __name__ == "__main__":
