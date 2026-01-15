@@ -7,3 +7,4 @@
 | [Anagrama](./2_anagrama.py)   | ✅      |
 | [Fibonacci](./3_fibonacci.py) | ✅      |
 | [Número primo](./4_primo.py)  | ✅      |
+| [Poligonos](./5_poligono.py)  | ✅      |
