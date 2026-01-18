@@ -1,13 +1,11 @@
 """
- * Crea una única función (importante que solo sea una) que sea capaz
- * de calcular y retornar el área de un polígono.
- * - La función recibirá por parámetro solo UN polígono a la vez.
- * - Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.
- * - Imprime el cálculo del área de un polígono de cada tipo.
+ Crea una única función (importante que solo sea una) que sea capaz
+ de calcular y retornar el área de un polígono.
+  - La función recibirá por parámetro solo UN polígono a la vez.
+  - Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.
+  - Imprime el cálculo del área de un polígono de cada tipo.
 """
-from typing import override
-
-
+#region classes
 class Poligono:
     def __init__(self, base: int, height: int):
         self.base = base
@@ -32,6 +30,8 @@ class Square(Poligono):
 
     def area(self):
         return self.side * self.side
+
+#endregion
 
 def area(poligono: Poligono):
     """
