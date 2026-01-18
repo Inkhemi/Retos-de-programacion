@@ -8,4 +8,5 @@
 | [Fibonacci](./3_fibonacci.py)      | ✅      |
 | [Número primo](./4_primo.py)       | ✅      |
 | [Poligonos](./5_poligono.py)       | ✅      |
-| [Aspect Ratio](./6_aspectRatio.py) |  ✅     |
+| [Aspect Ratio](./6_aspectRatio.py) | ✅      |
+| [Invertir Cadenas](./7_cadenas.py) | ✅      |
