@@ -37,6 +37,5 @@ def get_aspect_ratio(url: str) -> str:
     return f"el aspect ratio es de: {aspect_ratio[0]}:{aspect_ratio[1]}"
 
 
-
 if __name__ == "__main__":
     print(get_aspect_ratio("https://wallpapers.com/images/hd/4k-16-9-winter-red-sky-r1onz10phbc1c3p2.jpg"))

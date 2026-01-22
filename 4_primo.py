@@ -3,6 +3,7 @@
  Hecho esto, imprime los números primos entre 1 y 100.
 """
 
+
 def prime_number(n: int) -> bool | str:
     """
     Retorna si un número es primo o no
@@ -19,6 +20,7 @@ def prime_number(n: int) -> bool | str:
             return False
 
     return True
+
 
 if __name__ == "__main__":
     for i in range(1, 101):

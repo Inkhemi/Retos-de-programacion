@@ -10,5 +10,6 @@ def invert_chain(chain: str) -> str:
         inverted_chain += chain[i]
     return inverted_chain
 
+
 if __name__ == '__main__':
     print(invert_chain('Hola mundo'))

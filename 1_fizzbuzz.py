@@ -7,6 +7,7 @@
   - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  """
 
+
 def fizzbuzz():
     """
     Muestra los números de 1 a 100, sustituyendo los siguientes:
@@ -26,6 +27,7 @@ def fizzbuzz():
             print("Buzz")
             continue
         print(i)
+
 
 if __name__ == "__main__":
     fizzbuzz()

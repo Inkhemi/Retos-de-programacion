@@ -3,9 +3,10 @@
  verdadero o falso (Bool) según sean o no anagramas.
   - Un Anagrama consiste en formar una palabra reordenando TODAS
   - las letras de otra palabra inicial.
-  - NO hace falta comprobar que ambas palabras existan.
+  - No hace falta comprobar que ambas palabras existan.
   - Dos palabras exactamente iguales no son anagrama.
 """
+
 
 def anagrama(word1:str, word2: str) -> bool:
     """
@@ -24,6 +25,7 @@ def anagrama(word1:str, word2: str) -> bool:
         return True
     else:
         return False
+
 
 if __name__ == "__main__":
     n1 = input()

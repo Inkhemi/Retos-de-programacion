@@ -5,6 +5,8 @@
   - la que el siguiente siempre es la suma de los dos anteriores.
   - 0, 1, 1, 2, 3, 5, 8, 13...
 """
+
+
 def fibonacci():
     """
     Muestra los primeros números de Fibonacci.
@@ -13,6 +15,7 @@ def fibonacci():
     for i in range(2, 51):
         fib.append(fib[i - 1] + fib[i - 2])
     print(*fib, sep=", ")
+
 
 if __name__ == "__main__":
     fibonacci()
